@@ -1,0 +1,4 @@
+@keyframes fly-up{
+    from{transform: translateY(50px);}
+    to{transform: translateY(0);}
+}

@@ -1,0 +1,1999 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NIKE</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+
+    <header class="header">
+      <div class="wrapper">
+        <!-- 1:: Top Navigator -->
+        <nav class="nav top-nav d-flex">
+          <!-- 1:1:: Header logo -->
+          <div class="header-logo">
+            <a href="#">
+              <svg height="32px" width="32px" fill="#111" viewBox="0 0 26 32">
+                <path
+                  d="M14.4 5.52v-.08q0-.56.36-1t.92-.44 1 .36.48.96-.36 1-.96.4l-.24.08.08.12-.08.44-.16 1.28q.08.08.08.16l-.16.8q-.08.16-.16.24l-.08.32q-.16.64-.28 1.04t-.2.64V12q-.08.4-.12.64t-.28.8q-.16.32 0 1.04l.08.08q0 .24.2.56t.2.56q.08 1.6-.24 2.72l.16.48q.96.48.56 1.04l.4.16q.96.48 1.36.84t.8.76q.32.08.48.24l.24.08q1.68 1.12 3.36 2.72l.32.24v.08l-.08.16.24.16h.08q.24.16.32.16h.08q.08 0 .16-.08l.16-.08q.16-.16.32-.24h.32q.08 0 0 .08l-.32.16-.4.48h.56l.56.08q.24-.08.4-.16l.4-.24q.24-.08.48.16h.08q.08.08-.08.24l-.96.88q-.4.32-.72.4l-1.04.72q-.08.08-.16 0l-.24-.32-.16-.32-.2-.28-.24-.32-.2-.24-.16-.2-.32-.24q-.16 0-.32-.08l-1.04-.8q-.24 0-.56-.24-1.2-1.04-1.6-1.28l-.48-.32-.96-.16q-.48-.08-1.28-.48l-.64-.32q-.64-.32-.88-.32l-.32-.16q-.32-.08-.48-.16l-.16-.16q-.16 0-.32.08l-1.6.8-2 .88q-.8.64-1.52 1.04l-.88.4-1.36.96q-.16.16-.32 0l-.16.16q-.24.08-.32.08l-.32.16v.16h-.16l-.16.24q-.16.32-.32.36t-.2.12-.08.12l-.16.16-.24.16-.36-.04-.48.08-.32.08q-.4.08-.64-.12t-.4-.6q-.16-.24.16-.4l.08-.08q.08-.08.24-.08h.48L1.6 26l.32-.08q0-.16.08-.24.08-.08.24-.08v-.08q-.08-.16-.08-.32-.08-.16-.04-.24t.08-.08h.04l.08.24q.08.4.24.24l.08-.16q.08-.16.24-.16l.16.16.16-.16-.08-.08q0-.08.08-.08l.32-.32q.4-.48.96-.88 1.12-.88 2.4-1.36.4-.4.88-.4.32-.56.96-1.2.56-.4.8-.56.16-.32.4-.32H10l.16-.16q.16-.08.24-.16v-.4q0-.4.08-.64t.4-.24l.32-.32q-.16-.32-.16-.72h-.08q-.16-.24-.16-.48-.24-.4-.32-.64h-.24q-.08.24-.4.32l-.08.16q-.32.56-.56.84t-.88.68q-.4.4-.56.88-.08.24 0 .48l-.08.16h.08q0 .16.08.16h.08q.16.08.16.2t-.24.08-.36-.16-.2-.12l-.24.24q-.16.24-.32.2t-.08-.12l.08-.08q.08-.16 0-.16l-.64.16q-.08.08-.2 0t.04-.16l.4-.16q0-.08-.08-.08-.32.16-.64.08l-.4-.08-.08-.08q0-.08.08-.08.32.08.8-.08l.56-.24.64-.72.08-.16q.32-.64.68-1.16t.76-.84l.08-.32q.16-.32.32-.56t.4-.64l.24-.32q.32-.48.72-.48l.24-.24q.08-.08.08-.24l.16-.16-.08-.08q-.48-.4-.48-.72-.08-.56.36-.96t.88-.36.68.28l.16.16q.08 0 .08.08l.32.16v.24q.16.16.16.24.16-.24.48-.56l.4-1.28q0-.32.16-.64l.16-.24v-.16l.24-.96h.16l.24-.96q.08-.24 0-.56l-.32-.8z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+
+          <!-- 1:2:: Navigator list -->
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">Help</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Join us</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Sign in</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- 2:: Bottom Navigator -->
+        <nav class="nav bottom-nav" id="myNav">
+          <div class="wrapper d-flex">
+            <!-- 2:1:: Header logo -->
+            <div class="header-logo">
+              <a href="#">
+                <svg
+                  class="pre-logo-svg"
+                  height="48px"
+                  width="64px"
+                  fill="#111"
+                  viewBox="0 0 69 32"
+                >
+                  <path
+                    d="M68.56 4L18.4 25.36Q12.16 28 7.92 28q-4.8 0-6.96-3.36-1.36-2.16-.8-5.48t2.96-7.08q2-3.04 6.56-8-1.6 2.56-2.24 5.28-1.2 5.12 2.16 7.52Q11.2 18 14 18q2.24 0 5.04-.72z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+
+            <!-- 2:2:: Navigator list -->
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link">Men</a>
+                <div class="subnav">
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>New & Featured</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">New releases</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >SNKRS launch calendar</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Member access</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Air force 1</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">New releases</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Basic essentials</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Football club kits</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Sustainable materials</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Top picks under 2.300.00đ</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Last sizes available</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Sale</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Shoes</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Newest sneakers</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">All shoes</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Lifestyle</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Running</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Basketball</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Jordan</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Football</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Gym and training</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Skateboarding</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Tennis</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Sandais and slides</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Customise with nike by you</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">All sale shoes</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Clothing</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">All clothing</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Tops and t-shirts</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Jerseys and kits</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Hoodies and sweatshirts</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Jackets and gilets</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Pants and leggings</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Tracksuits</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Compression and base layer</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Shorts</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Caps</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Socks</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Bags and backpacks</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Accessories and Equiqment</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">All sale clothing</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Shop by sport</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Running</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Football</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Basketball</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Gym and training</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Yoga</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Skateboarding</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Tennis</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Golf</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Shop by brand</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nike sportswear</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nikelab</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nike by you</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Jordan</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Acg</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nba</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nike sb</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Icons</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Air force 1</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Pegasus</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Blazer</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Air jordan 1</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Air max</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Women</a>
+                <div class="subnav">
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>New & Featured</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">New releases</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >SNKRS launch calendar</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Member access</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Air force 1</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">New releases</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Basic essentials</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Football club kits</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Sustainable materials</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Top picks under 2.300.00đ</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Last sizes available</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Sale</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Shoes</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Newest sneakers</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">All shoes</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Lifestyle</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Running</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Basketball</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Jordan</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Football</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Gym and training</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Skateboarding</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Tennis</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Sandais and slides</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Customise with nike by you</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">All sale shoes</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Clothing</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">All clothing</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Tops and t-shirts</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Jerseys and kits</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Hoodies and sweatshirts</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Jackets and gilets</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Pants and leggings</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Tracksuits</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Compression and base layer</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Shorts</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Caps</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Socks</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Bags and backpacks</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Accessories and Equiqment</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">All sale clothing</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Shop by sport</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Running</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Football</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Basketball</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Gym and training</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Yoga</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Skateboarding</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Tennis</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Golf</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Shop by brand</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nike sportswear</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nikelab</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nike by you</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Jordan</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Acg</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nba</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nike sb</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Icons</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Air force 1</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Pegasus</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Blazer</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Air jordan 1</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Air max</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Kids</a>
+                <div class="subnav">
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>New & Featured</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">New releases</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >SNKRS launch calendar</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Member access</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Air force 1</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">New releases</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Basic essentials</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Football club kits</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Sustainable materials</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Top picks under 2.300.00đ</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Last sizes available</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Sale</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Shoes</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Newest sneakers</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">All shoes</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Lifestyle</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Running</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Basketball</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Jordan</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Football</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Gym and training</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Skateboarding</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Tennis</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Sandais and slides</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Customise with nike by you</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">All sale shoes</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Clothing</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">All clothing</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Tops and t-shirts</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Jerseys and kits</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Hoodies and sweatshirts</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Jackets and gilets</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Pants and leggings</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Tracksuits</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Compression and base layer</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Shorts</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Caps</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Socks</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Bags and backpacks</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Accessories and Equiqment</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">All sale clothing</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Shop by sport</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Running</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Football</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Basketball</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Gym and training</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Yoga</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Skateboarding</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Tennis</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Golf</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Shop by brand</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nike sportswear</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nikelab</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nike by you</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Jordan</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Acg</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nba</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nike sb</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Icons</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Air force 1</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Pegasus</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Blazer</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Air jordan 1</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Air max</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Customise</a>
+                <div class="subnav">
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>New & Featured</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">New releases</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >SNKRS launch calendar</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Member access</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Air force 1</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">New releases</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Basic essentials</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Football club kits</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Sustainable materials</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Top picks under 2.300.00đ</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Last sizes available</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Sale</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Shoes</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Newest sneakers</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">All shoes</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Lifestyle</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Running</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Basketball</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Jordan</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Football</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Gym and training</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Skateboarding</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Tennis</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Sandais and slides</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Customise with nike by you</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">All sale shoes</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Clothing</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">All clothing</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Tops and t-shirts</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Jerseys and kits</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Hoodies and sweatshirts</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Jackets and gilets</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Pants and leggings</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Tracksuits</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Compression and base layer</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Shorts</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Caps</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Socks</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Bags and backpacks</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Accessories and Equiqment</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">All sale clothing</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Shop by sport</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Running</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Football</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Basketball</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Gym and training</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Yoga</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Skateboarding</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Tennis</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Golf</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Shop by brand</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nike sportswear</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nikelab</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nike by you</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Jordan</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Acg</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nba</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nike sb</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Icons</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Air force 1</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Pegasus</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Blazer</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Air jordan 1</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Air max</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Sale</a>
+                <div class="subnav">
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>New & Featured</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">New releases</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >SNKRS launch calendar</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Member access</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Air force 1</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">New releases</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Basic essentials</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Football club kits</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Sustainable materials</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Top picks under 2.300.00đ</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Last sizes available</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Sale</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Shoes</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Newest sneakers</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">All shoes</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Lifestyle</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Running</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Basketball</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Jordan</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Football</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Gym and training</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Skateboarding</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Tennis</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Sandais and slides</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Customise with nike by you</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">All sale shoes</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Clothing</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">All clothing</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Tops and t-shirts</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Jerseys and kits</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Hoodies and sweatshirts</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Jackets and gilets</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Pants and leggings</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Tracksuits</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Compression and base layer</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Shorts</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Caps</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Socks</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Bags and backpacks</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Accessories and Equiqment</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">All sale clothing</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Shop by sport</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Running</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Football</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Basketball</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Gym and training</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Yoga</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Skateboarding</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Tennis</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Golf</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Shop by brand</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nike sportswear</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nikelab</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nike by you</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Jordan</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Acg</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nba</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nike sb</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Icons</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Air force 1</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Pegasus</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Blazer</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Air jordan 1</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Air max</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">SNKRS</a>
+                <div class="subnav">
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>New & Featured</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">New releases</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >SNKRS launch calendar</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Member access</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Air force 1</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">New releases</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Basic essentials</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Football club kits</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Sustainable materials</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Top picks under 2.300.00đ</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Last sizes available</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Sale</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Shoes</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Newest sneakers</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">All shoes</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Lifestyle</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Running</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Basketball</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Jordan</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Football</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Gym and training</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Skateboarding</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Tennis</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Sandais and slides</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Customise with nike by you</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">All sale shoes</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Clothing</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">All clothing</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Tops and t-shirts</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Jerseys and kits</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Hoodies and sweatshirts</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Jackets and gilets</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Pants and leggings</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Tracksuits</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Compression and base layer</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Shorts</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Caps</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Socks</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Bags and backpacks</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link"
+                          >Accessories and Equiqment</a
+                        >
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">All sale clothing</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Shop by sport</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Running</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Football</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Basketball</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Gym and training</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Yoga</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Skateboarding</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Tennis</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Golf</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Shop by brand</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nike sportswear</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nikelab</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nike by you</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Jordan</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Acg</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nba</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Nike sb</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__col col-6">
+                    <ul class="subnav__list">
+                      <p>Icons</p>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Air force 1</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Pegasus</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Blazer</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Air jordan 1</a>
+                      </li>
+                      <li class="subnav__item">
+                        <a href="#" class="subnav__link">Air max</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <div class="right d-flex">
+              <!-- 2:3:: header box -->
+              <div class="header-search d-flex">
+                <input type="text" class="search-box" placeholder="Search" />
+                <button class="search-btn">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+
+              <!-- 2:4:: header  -->
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="" class="nav__link">
+                    <i class="far fa-heart"></i>
+                  </a>
+                </li>
+                <li class="nav__item">
+                  <a href="" class="nav__link">
+                    <i class="fas fa-shopping-cart"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- CONTAINER -->
+
+    <div class="container">
+      <!-- 3:: Action Navigator -->
+      <div class="home-discount">
+        <div class="wrapper d-flex">
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="discount__item">
+                  <p>Sale up to 40%</p>
+                  <p>Shop all our new markdowns</p>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="discount__item">
+                  <p>Free Delivery</p>
+                  <p>Applies to order of 5.000.000đ of more. View details</p>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="discount__item">
+                  <p>Hello Nike App</p>
+                  <p>
+                    Download the app to access everything nike. Get Your Great
+                  </p>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="discount__item">
+                  <p>Sale up to 40%</p>
+                  <p>Shop all our new markdowns</p>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider -->
+      <div class="slider">
+        <div class="wrapper">
+          <div class="slider__img">
+            <img
+              src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1253,c_limit/2475137c-cdd9-4476-ba48-0e4a2510f5f4/nike-just-do-it.png"
+              alt=""
+            />
+          </div>
+          <div class="slider__content">
+            <p class="subtitle slider__subtitle">The future is in the air</p>
+            <p class="title slider__title">NIKE AIR MAX INTRLK</p>
+            <a href="./product.html" class="btn home-btn fade-in-btn">Shop</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider -->
+      <div class="slider">
+        <div class="wrapper">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="slider__img">
+                  <img
+                    src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1253,c_limit/1b889969-4ea2-4d66-8fdd-7a618723293a/nike-just-do-it.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slider__img">
+                  <img
+                    src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1253,c_limit/9e80ffd5-e57b-498c-8443-582e89bdae33/nike-just-do-it.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slider__img">
+                  <img
+                    src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1253,c_limit/b597cdb5-88ba-49f2-8cdd-1c907d1dd037/nike-just-do-it.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slider__img">
+                  <img
+                    src="https://static.nike.com/a/images/f_auto/dpr_0.8,cs_srgb/w_1824,c_limit/dda2ca46-97d5-4268-a921-289a4a7f62d7/nike-just-do-it.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slider__img">
+                  <img
+                    src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_851,c_limit/e568e0d2-89ac-4269-8606-0cc58ad60427/women-s-shoes-clothing-accessories.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slider__img">
+                  <img
+                    src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_851,c_limit/558286a5-5ad5-4afd-bcac-a696a30bbcad/women-s-shoes-clothing-accessories.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slider__img">
+                  <img
+                    src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1253,c_limit/623e6f50-bf99-4ec9-acc5-ecc7dde8fe90/men-s-shoes-clothing-accessories.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slider__img">
+                  <img
+                    src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_851,c_limit/b7fd6d10-69ed-4c63-9efd-9ad53ca5cdd4/nike-kids.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+      
+          
+          <div class="slider__content">
+            <p class="subtitle slider__subtitle">ZoomX Streakfly: Member Access Start 4 April</p>
+            <p class="title slider__title">LET'S FLY</p>
+            <a href="./product.html" class="btn home-btn fade-in-btn">Shop</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Banner -->
+      <div class="banner">
+        <div class="wrapper">
+          <p class="toptitle banner__toptitle">Best of air max</p>
+          <ul class="banner__list d-flex">
+            <li class="banner__item">
+              <div class="banner__img">
+                <img
+                  src="https://static.nike.com/a/images/f_auto/dpr_0.7,cs_srgb/w_523,c_limit/b7d063a9-31cb-4ecf-b1c6-5b273f1d12d8/nike-just-do-it.png"
+                  alt=""
+                />
+              </div>
+              <div class="banner__content">
+                <p class="subtitle banner__subtitle">Nike air max dawn</p>
+                <a href="./product.html" class="btn home-btn fade-in-btn"
+                  >Shop</a
+                >
+              </div>
+            </li>
+            <li class="banner__item">
+              <div class="banner__img">
+                <img
+                  src="https://static.nike.com/a/images/f_auto/dpr_0.7,cs_srgb/w_523,c_limit/e10fa75a-d5dc-42d1-b3d9-d9348f37bd8c/nike-just-do-it.png"
+                  alt=""
+                />
+              </div>
+              <div class="banner__content">
+                <p class="subtitle banner__subtitle">Nike air 90 se</p>
+                <a href="./product.html" class="btn home-btn fade-in-btn"
+                  >Shop</a
+                >
+              </div>
+            </li>
+            <li class="banner__item">
+              <div class="banner__img">
+                <img
+                  src="https://static.nike.com/a/images/f_auto/dpr_0.7,cs_srgb/w_523,c_limit/82faed75-c09e-4374-a460-ac85f53dc284/nike-just-do-it.png"
+                  alt=""
+                />
+              </div>
+              <div class="banner__content">
+                <p class="subtitle banner__subtitle">Nike air max 97</p>
+                <a href="./product.html" class="btn home-btn fade-in-btn"
+                  >Shop</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Slider -->
+      <div class="slider">
+        <div class="wrapper">
+          <p class="toptitle banner__toptitle">Trending</p>
+          <div class="slider__img">
+            <img
+              src="https://static.nike.com/a/images/f_auto/dpr_0.7,cs_srgb/w_1590,c_limit/8c8b2373-f031-4bec-92e0-7bf551dd4654/nike-just-do-it.png"
+              alt=""
+            />
+          </div>
+          <div class="slider__content">
+            <p class="subtitle slider__subtitle">The future is in the air</p>
+            <p class="title slider__title">NIKE AIR MAX 90 SE</p>
+            <a href="./product.html" class="btn home-btn fade-in-btn">Shop</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Latest -->
+      <div class="latest">
+        <div class="wrapper">
+          <p class="toptitle banner__toptitle">The latest</p>
+          <ul class="latest__list d-flex">
+            <li class="latest__item">
+              <div class="latest__img">
+                <img
+                  src="https://static.nike.com/a/images/f_auto/dpr_0.5,cs_srgb/w_906,c_limit/c354277a-00a8-4482-9485-d5c7594222b6/nike-just-do-it.png"
+                  alt=""
+                />
+              </div>
+              <div class="latest__content">
+                <p class="subtitle latest__subtitle">Women's essentials</p>
+                <a href="./product.html" class="btn home-btn fade-in-btn"
+                  >Shop</a
+                >
+              </div>
+            </li>
+            <li class="latest__item">
+              <div class="latest__img">
+                <img
+                  src="https://static.nike.com/a/images/f_auto/dpr_0.5,cs_srgb/w_906,c_limit/ecebc865-52e1-428f-95ff-dbb2f6141797/nike-just-do-it.png"
+                  alt=""
+                />
+              </div>
+              <div class="latest__content">
+                <p class="subtitle latest__subtitle">
+                  Have a nice day: Sunshine for days
+                </p>
+                <a href="./product.html" class="btn home-btn fade-in-btn"
+                  >Shop</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Slider -->
+      <div class="style">
+        <div class="wrapper">
+          <p class="toptitle style__toptitle">New Style</p>
+          <div class="style__img">
+            <img
+              src="https://static.nike.com/a/images/f_auto/dpr_0.8,cs_srgb/w_1824,c_limit/dda2ca46-97d5-4268-a921-289a4a7f62d7/nike-just-do-it.jpg"
+              alt=""
+            />
+          </div>
+          <div class="style__content">
+            <p class="subtitle style__subtitle">Classic touch. Fresh designs</p>
+            <p class="title style__title">New Styles</p>
+            <a href="./product.html" class="btn home-btn fade-in-btn">Shop</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- More Nike -->
+      <div class="more">
+        <div class="wrapper">
+          <p class="toptitle more__toptitle">More Nike</p>
+          <ul class="more__list d-flex">
+            <li class="more__item">
+              <div class="more__img">
+                <img
+                  src="https://static.nike.com/a/images/f_auto/dpr_0.8,cs_srgb/h_564,c_limit/0201bd10-3a36-4d42-8d44-1ce75dfdbbe9/nike-just-do-it.png"
+                  alt=""
+                />
+              </div>
+              <div class="more__content">
+                <p class="subtitle latest__subtitle">
+                  Men's New Releases
+                </p>
+                <a href="#" class="btn home-btn fade-in-btn">Men's</a>
+              </div>
+            </li>
+            <li class="more__item">
+              <div class="more__img">
+                <img
+                  src="https://static.nike.com/a/images/f_auto/dpr_0.8,cs_srgb/h_564,c_limit/bd0e2218-19c4-4a78-8ea4-de4499ba1500/nike-just-do-it.png"
+                  alt=""
+                />
+              </div>
+              <div class="more__content">
+                <p class="subtitle latest__subtitle">
+                  Women's New Releases
+                </p>
+                <a class="btn home-btn fade-in-btn">Women's</a>
+              </div>
+            </li>
+            <li class="more__item">
+              <div class="more__img">
+                <img
+                  src="https://static.nike.com/a/images/f_auto/dpr_0.8,cs_srgb/h_564,c_limit/162ffd0b-ab0c-41e3-aec8-9045ad1aeb2a/nike-just-do-it.png"
+                  alt=""
+                />
+              </div>
+              <div class="more__content">
+                <p class="subtitle latest__subtitle">
+                  Kid's New Releases
+                </p>
+                <a class="btn home-btn fade-in-btn">Kid's</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Product-List -->
+      <div class="home-product">
+        <div class="wrapper">
+          <p class="toptitle banner__toptitle">Fresh picks for you</p>
+          <div class="product__list"></div>
+        </div>  
+      </div>
+
+      <!-- More Nike -->
+      <div class="more">
+        <div class="wrapper">
+          <p class="toptitle more__toptitle">More Nike</p>
+          <ul class="more__list d-flex">  
+            <li class="more__item">
+              <div class="more__img">
+                <img
+                  src="https://static.nike.com/a/images/f_auto/dpr_0.8,cs_srgb/h_707,c_limit/73a90008-489e-47a7-adf6-434871025e85/nike-just-do-it.png"
+                  alt=""
+                />
+              </div>
+              <div class="more__content">
+                <a href="#" class="btn home-btn fade-in-btn">Men's</a>
+              </div>
+            </li>
+            <li class="more__item">
+              <div class="more__img">
+                <img
+                  src="https://static.nike.com/a/images/f_auto/dpr_0.8,cs_srgb/h_707,c_limit/7a3d39e1-01bf-48d4-9da2-4c8be1311fa0/nike-just-do-it.png"
+                  alt=""
+                />
+              </div>
+              <div class="more__content">
+                <a class="btn home-btn fade-in-btn">Women's</a>
+              </div>
+            </li>
+            <li class="more__item">
+              <div class="more__img">
+                <img
+                  src="https://static.nike.com/a/images/f_auto/dpr_0.8,cs_srgb/h_707,c_limit/2a4a108f-6eee-4fd3-a761-3c9e80e32942/nike-just-do-it.png"
+                  alt=""
+                />
+              </div>
+              <div class="more__content">
+                <a class="btn home-btn fade-in-btn">Kid's</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Types -->
+      <div class="type">
+        <div class="wrapper">
+          <!-- Type -->
+          <div class="type__top d-flex">
+            <!--Type Col -->
+            <div class="type__col">
+              <p class="type__title">Icons</p>
+              <ul class="type__list">
+                <li><a href="#">Air force 1</a></li>
+                <li><a href="#">Huarache</a></li>
+                <li><a href="#">Air max 90</a></li>
+                <li><a href="#">Air max 95</a></li>
+                <li><a href="#">Air max 97</a></li>
+                <li><a href="#">Air max 270</a></li>
+                <li><a href="#">Air max 720</a></li>
+                <li><a href="#">Vapormax</a></li>
+              </ul>
+            </div>
+
+            <!-- Type Col -->
+            <div class="type__col">
+              <p class="type__title">Shoes</p>
+              <ul class="type__list">
+                <li><a href="#">All shoes</a></li>
+                <li><a href="#">Custom shoes</a></li>
+                <li><a href="#">Jordan shoes</a></li>
+                <li><a href="#">Running shoes</a></li>
+                <li><a href="#">Basketball shoes</a></li>
+                <li><a href="#">Football shoes</a></li>
+                <li><a href="#">Gym & training shoes</a></li>
+                <li><a href="#">Lifestyle shoes</a></li>
+              </ul>
+            </div>
+
+            <!-- Type Col -->
+            <div class="type__col">
+              <p class="type__title">Clothing</p>
+              <ul class="type__list">
+                <li><a href="#">All clothing</a></li>
+                <li><a href="#">Modest wear</a></li>
+                <li><a href="#">Hoodies & pullovers</a></li>
+                <li><a href="#">Shirts & tops</a></li>
+                <li><a href="#">Jackets</a></li>
+                <li><a href="#">Compression & nike pro</a></li>
+                <li><a href="#">Trousers & leggings</a></li>
+                <li><a href="#">Shorts</a></li>
+              </ul>
+            </div>
+
+            <!-- Type Col -->
+            <div class="type__col">
+              <p class="type__title">Kid's</p>
+              <ul class="type__list">
+                <li><a href="#">Infant & toddler shoes</a></li>
+                <li><a href="#">Kid's shoes</a></li>
+                <li><a href="#">Kid's jordan shoes</a></li>
+                <li><a href="#">Kid's basketball shoes</a></li>
+                <li><a href="#">Kid's running shoes</a></li>
+                <li><a href="#">Kid's clothing</a></li>
+                <li><a href="#">Kid's backpacks</a></li>
+                <li><a href="#">Kid's socks</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Back To -->
+    <a href="#" class="back-top">
+      <i class="fa-solid fa-chevron-up"></i>
+    </a>
+
+    
+    <!--FOOTER  -->
+
+    <div class="footer">
+      <div class="wrapper">
+        <!-- Footer Top -->
+        <div class="footer__top d-flex">
+          <!-- Footer Col -->
+          <div class="footer__col">
+            <ul class="footer__list">
+              <li><a class="footer__title" href="#">FIND A STORE</a></li>
+              <li><a class="footer__title" href="#">BECOME A MEMBER</a></li>
+              <li><a class="footer__title" href="#">SIGN UP FOR EMAIL</a></li>
+              <li><a class="footer__title" href="#">SEND US FEEDBACK</a></li>
+            </ul>
+          </div>
+
+          <!-- Footer Col -->
+
+          <div class="footer__col">
+            <p class="footer__title">Get help</p>
+            <ul class="footer__list">
+              <li><a href="#">Order Status</a></li>
+              <li><a href="#">Delivery</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Payment Options</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- Footer Col -->
+
+          <div class="footer__col">
+            <p class="footer__title">ABOUT NIKE</p>
+            <ul class="footer__list">
+              <li><a href="#">News</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Investors</a></li>
+              <li><a href="#">Sustainability</a></li>
+            </ul>
+          </div>
+
+          <!-- Footer Col -->
+
+          <div class="footer__col">
+            <ul class="footer__list">
+              <li>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer__bottom">
+          <div class="left d-flex">
+            <a class="footer__location">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Vietnam</span>
+            </a>
+            <p class="footer__copyright">
+              © 2022 Nike, Inc. All Rights Reserved
+            </p>
+          </div>
+          <ul class="footer__policy">
+            <li>
+              <a href="">Guides</a>
+            </li>
+            <li>
+              <a href="">Tems of sale</a>
+            </li>
+            <li>
+              <a href="">Tems of use</a>
+            </li>
+            <li>
+              <a href="">Nike privacy policy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./src/js/active.js"></script>
+  </body>
+
+</html>
